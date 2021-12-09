@@ -55,10 +55,10 @@ namespace MCD_FormKontrolleriInceleme
         private void btnonizleme_Click(object sender, EventArgs e)
         {
             frmOnizlemeKayit onizlemeKayit = new frmOnizlemeKayit();
-            ((TextBox)this.Controls["txtisim"]).Text = txtisim.Text;
-            ((TextBox)this.Controls["txtsoyisim"]).Text = txtsoyisim.Text;
-            ((TextBox)this.Controls["txtemailadres"]).Text = txtemailadres.Text;
-            ((TextBox)this.Controls["txttelefonnumarasi"]).Text = txttelefonnumarasi.Text;
+            ((TextBox)onizlemeKayit.Controls["txtisim"]).Text = txtisim.Text;
+            ((TextBox)onizlemeKayit.Controls["txtsoyisim"]).Text = txtsoyisim.Text;
+            ((TextBox)onizlemeKayit.Controls["txtemailadres"]).Text = txtemailadres.Text;
+            ((TextBox)onizlemeKayit.Controls["txttelefonnumarasi"]).Text = txttelefonnumarasi.Text;
             onizlemeKayit.ShowDialog();
         }
 
