@@ -141,6 +141,7 @@ namespace MCD_FormKontrolleriInceleme
             this.btnonizleme.TabIndex = 2;
             this.btnonizleme.Text = "Önizleme Yap";
             this.btnonizleme.UseVisualStyleBackColor = true;
+            this.btnonizleme.Click += new System.EventHandler(this.btnonizleme_Click);
             // 
             // btnkaydet
             // 
@@ -151,6 +152,7 @@ namespace MCD_FormKontrolleriInceleme
             this.btnkaydet.TabIndex = 2;
             this.btnkaydet.Text = "Kaydet";
             this.btnkaydet.UseVisualStyleBackColor = true;
+            this.btnkaydet.Click += new System.EventHandler(this.btnkaydet_Click);
             // 
             // btntemizle
             // 
